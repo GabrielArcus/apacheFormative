@@ -1,5 +1,5 @@
 @import 'grid';
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 // variables
 $primaryColour: #ba5252;
 $primaryFont: 'Roboto', sans-serif;
@@ -45,7 +45,11 @@ body{
     float: left;
     font-size: 30px;
     padding: 0px 20px;
+}
+.logoTopNav a{
     text-decoration: none;
+    color: white;
+    font-weight: 900;
 }
 .logoTopNav::after{
     clear: both;
@@ -65,20 +69,20 @@ body{
     color: white;
 }
 .introContainer{
+
 }
 .hanoiIntro{
     float: left;
-    padding: 100px 40px 40px 80px;
-    top: 15%;
+    padding: 150px 40px 40px 80px;
     font-size: 16px;
 }
 .headerStyleSmall{
-    font-size: 55px;
+    font-size: 45px;
     color: grey;
 
 }
 .headerStyleLarge{
-    font-size: 60px;
+    font-size: 50px;
     color: $primaryColour;
 }
 .hanoiIntroText{
@@ -104,6 +108,7 @@ body{
 }
 .introImageContainer{
     float: right;
+    display: none;
 }
 .menuContainer{
     background-color: $primaryColour;
@@ -146,14 +151,26 @@ body{
 }
 .cardImage{
     padding: 0px 15px;
+    display: none;
 }
 .viewMenuButtonContainer{
     padding: 60px 0px 80px 0px;
     display: flex;
     justify-content: center;
 }
+.mobileMenuHeader{
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+}
 @media screen and (min-width: 600px){
-
+    .introImageContainer{
+        display: block;
+    }
+    .cardImage{
+        padding: 0px 15px;
+        display: block;
+    }
 }
 @media screen and (min-width: 1000px){
     .hamburgerIcon{
