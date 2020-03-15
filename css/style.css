@@ -1,24 +1,32 @@
-/* line 20, ../sass/_grid.scss */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/* line 2, ../sass/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-/* line 13, ../sass/_grid.scss */
+/* line 8, ../sass/_grid.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 12, ../sass/_grid.scss */
 .row::after {
   clear: both;
   display: block;
   content: '';
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 17, ../sass/_grid.scss */
 .col1 {
   width: 8.3333333333%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 23, ../sass/_grid.scss */
 .col2 {
   width: 16.6666666667%;
   float: left;
@@ -32,63 +40,63 @@
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 35, ../sass/_grid.scss */
 .col4 {
   width: 33.3333333333%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 41, ../sass/_grid.scss */
 .col5 {
   width: 41.6666666667%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 47, ../sass/_grid.scss */
 .col6 {
   width: 50%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 53, ../sass/_grid.scss */
 .col7 {
   width: 58.3333333333%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 59, ../sass/_grid.scss */
 .col8 {
   width: 66.6666666667%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 65, ../sass/_grid.scss */
 .col9 {
   width: 75%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 71, ../sass/_grid.scss */
 .col10 {
   width: 83.3333333333%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 77, ../sass/_grid.scss */
 .col11 {
   width: 91.6666666667%;
   float: left;
   padding: 10px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 83, ../sass/_grid.scss */
 .col12 {
   width: 100%;
   float: left;
@@ -96,126 +104,361 @@
 }
 
 @media screen and (min-width: 600px) {
-  /* line 37, ../sass/_grid.scss */
+  /* line 91, ../sass/_grid.scss */
   .colM1 {
     width: 8.3333333333%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 95, ../sass/_grid.scss */
   .colM2 {
     width: 16.6666666667%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 99, ../sass/_grid.scss */
   .colM3 {
     width: 25%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 103, ../sass/_grid.scss */
   .colM4 {
     width: 33.3333333333%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 107, ../sass/_grid.scss */
   .colM5 {
     width: 41.6666666667%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 111, ../sass/_grid.scss */
   .colM6 {
     width: 50%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 115, ../sass/_grid.scss */
   .colM7 {
     width: 58.3333333333%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 119, ../sass/_grid.scss */
   .colM8 {
     width: 66.6666666667%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 123, ../sass/_grid.scss */
   .colM9 {
     width: 75%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 127, ../sass/_grid.scss */
   .colM10 {
     width: 83.3333333333%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 131, ../sass/_grid.scss */
   .colM11 {
     width: 91.6666666667%;
   }
 
-  /* line 37, ../sass/_grid.scss */
+  /* line 135, ../sass/_grid.scss */
   .colM12 {
     width: 100%;
   }
+
+  /* line 138, ../sass/_grid.scss */
+  .hamburgerIcon {
+    display: block;
+  }
 }
 @media screen and (min-width: 1000px) {
-  /* line 45, ../sass/_grid.scss */
+  /* line 144, ../sass/_grid.scss */
   .colL1 {
     width: 8.3333333333%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 148, ../sass/_grid.scss */
   .colL2 {
     width: 16.6666666667%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 152, ../sass/_grid.scss */
   .colL3 {
     width: 25%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 156, ../sass/_grid.scss */
   .colL4 {
     width: 33.3333333333%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 160, ../sass/_grid.scss */
   .colL5 {
     width: 41.6666666667%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 164, ../sass/_grid.scss */
   .colL6 {
     width: 50%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 168, ../sass/_grid.scss */
   .colL7 {
     width: 58.3333333333%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 172, ../sass/_grid.scss */
   .colL8 {
     width: 66.6666666667%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 176, ../sass/_grid.scss */
   .colL9 {
     width: 75%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 180, ../sass/_grid.scss */
   .colL10 {
     width: 83.3333333333%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 184, ../sass/_grid.scss */
   .colL11 {
     width: 91.6666666667%;
   }
 
-  /* line 45, ../sass/_grid.scss */
+  /* line 188, ../sass/_grid.scss */
   .colL12 {
     width: 100%;
   }
 }
+/* line 7, ../sass/style.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
 
-/*# sourceMappingURL=style.css.map */
+/* line 11, ../sass/style.scss */
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/style.scss */
+.navContainer {
+  width: 100%;
+  padding: 10px;
+  background-color: #ba5252;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 24, ../sass/style.scss */
+.navLinks {
+  color: white;
+  display: none;
+}
+
+/* line 28, ../sass/style.scss */
+.navList {
+  list-style: none;
+  display: inline;
+}
+
+/* line 33, ../sass/style.scss */
+.navItem {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 25px;
+  float: left;
+}
+
+/* line 39, ../sass/style.scss */
+.navItem::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+/* line 44, ../sass/style.scss */
+.logoTopNav {
+  float: left;
+  font-size: 30px;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+/* line 50, ../sass/style.scss */
+.logoTopNav::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+/* line 55, ../sass/style.scss */
+.socialTopNav {
+  float: right;
+  color: white;
+  display: none;
+}
+
+/* line 60, ../sass/style.scss */
+.socialItemTopNav {
+  padding-right: 10px;
+}
+
+/* line 63, ../sass/style.scss */
+.hamburgerIcon {
+  float: right;
+  color: white;
+}
+
+/* line 69, ../sass/style.scss */
+.hanoiIntro {
+  float: left;
+  padding: 100px 40px 40px 80px;
+  top: 15%;
+  font-size: 16px;
+}
+
+/* line 75, ../sass/style.scss */
+.headerStyleSmall {
+  font-size: 55px;
+  color: grey;
+}
+
+/* line 80, ../sass/style.scss */
+.headerStyleLarge {
+  font-size: 60px;
+  color: #ba5252;
+}
+
+/* line 84, ../sass/style.scss */
+.hanoiIntroText {
+  font-size: 20px;
+  color: #ba5252;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+/* line 90, ../sass/style.scss */
+.button {
+  background-color: #ba5252;
+  color: white;
+  border-radius: 25px;
+  padding: 6px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+/* line 99, ../sass/style.scss */
+.aboutUsButton {
+  margin-top: 5%;
+}
+
+/* line 102, ../sass/style.scss */
+.menuButton {
+  margin-top: 20px;
+}
+
+/* line 105, ../sass/style.scss */
+.introImageContainer {
+  float: right;
+}
+
+/* line 108, ../sass/style.scss */
+.menuContainer {
+  background-color: #ba5252;
+}
+
+/* line 111, ../sass/style.scss */
+.menuHeader {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+/* line 116, ../sass/style.scss */
+.menuButton {
+  background-color: white;
+  color: #ba5252;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* line 122, ../sass/style.scss */
+.menuButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 126, ../sass/style.scss */
+.card {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* line 131, ../sass/style.scss */
+.cardColoumn {
+  padding: 0px 15px;
+}
+
+/* line 134, ../sass/style.scss */
+.menuItemContainer {
+  padding: 0px 70px 0px 70px;
+}
+
+/* line 137, ../sass/style.scss */
+.menuPrice {
+  padding: 15px;
+}
+
+/* line 140, ../sass/style.scss */
+.menuItemHeader {
+  padding-bottom: 10px;
+}
+
+/* line 143, ../sass/style.scss */
+.cardText {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+/* line 147, ../sass/style.scss */
+.cardImage {
+  padding: 0px 15px;
+}
+
+/* line 150, ../sass/style.scss */
+.viewMenuButtonContainer {
+  padding: 60px 0px 80px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 159, ../sass/style.scss */
+  .hamburgerIcon {
+    display: none;
+  }
+
+  /* line 162, ../sass/style.scss */
+  .navLinks {
+    display: block;
+  }
+
+  /* line 165, ../sass/style.scss */
+  .socialTopNav {
+    display: block;
+  }
+}
