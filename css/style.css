@@ -322,31 +322,31 @@ body {
 /* line 74, ../sass/style.scss */
 .hanoiIntro {
   float: left;
-  padding: 150px 40px 40px 80px;
+  padding: 150px 40px 40px 40px;
   font-size: 16px;
+  text-align: center;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .headerStyleSmall {
   font-size: 45px;
   color: grey;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .headerStyleLarge {
   font-size: 50px;
   color: #ba5252;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .hanoiIntroText {
-  font-size: 20px;
+  font-size: 30px;
   color: #ba5252;
-  padding-top: 5%;
-  padding-right: 5%;
+  margin-top: 6%;
 }
 
-/* line 94, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .button {
   background-color: #ba5252;
   color: white;
@@ -357,35 +357,51 @@ body {
   border: none;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .aboutUsButton {
-  margin-top: 5%;
+  margin-top: 20%;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .menuButton {
   margin-top: 20px;
 }
 
-/* line 109, ../sass/style.scss */
-.introImageContainer {
-  float: right;
-  display: none;
+/* line 110, ../sass/style.scss */
+.introContainer {
+  background-color: black;
 }
 
 /* line 113, ../sass/style.scss */
+.introImageContainer {
+  background-image: url("../img/apache-intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: none;
+  line-height: 0px;
+}
+
+/* line 122, ../sass/style.scss */
+.flexrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 125, ../sass/style.scss */
 .menuContainer {
   background-color: #ba5252;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .menuHeader {
   text-align: center;
   padding-top: 100px;
   color: white;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .menuButton {
   background-color: white;
   color: #ba5252;
@@ -393,7 +409,7 @@ body {
   margin-left: 10px;
 }
 
-/* line 127, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .menuButtonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,46 +419,51 @@ body {
           justify-content: center;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .card {
   margin-top: 100px;
   background-color: white;
   border-radius: 10px;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .cardColoumn {
   padding: 0px 15px;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .menuItemContainer {
-  padding: 0px 70px 0px 70px;
+  padding: 0px 20px 0px 20px;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
+.menuItemText {
+  padding: 0px 0px 10px 0px;
+}
+
+/* line 157, ../sass/style.scss */
 .menuPrice {
   padding: 15px;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .menuItemHeader {
   padding-bottom: 10px;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .cardText {
   padding: 10px 15px;
   text-align: center;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .cardImage {
   padding: 0px 15px;
   display: none;
 }
 
-/* line 156, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .viewMenuButtonContainer {
   padding: 60px 0px 80px 0px;
   display: -webkit-box;
@@ -453,37 +474,106 @@ body {
           justify-content: center;
 }
 
-/* line 161, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .mobileMenuHeader {
   color: white;
   padding: 10px 20px;
   font-size: 25px;
 }
 
-@media screen and (min-width: 600px) {
-  /* line 167, ../sass/style.scss */
-  .introImageContainer {
-    display: block;
-  }
+/* line 181, ../sass/style.scss */
+.footerContainer {
+  background-color: #363535;
+  padding: 20px;
+}
 
-  /* line 170, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
+.footerLine {
+  color: grey;
+}
+
+/* line 188, ../sass/style.scss */
+.bottomNavlist {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 194, ../sass/style.scss */
+.bottomNavLinks {
+  color: white;
+  padding: 10px 0px 0px 10px;
+}
+
+/* line 198, ../sass/style.scss */
+.bottomNavLinksSmall {
+  color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10px;
+}
+
+/* line 205, ../sass/style.scss */
+.contactList {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 213, ../sass/style.scss */
   .cardImage {
     padding: 0px 15px;
     display: block;
   }
+
+  /* line 217, ../sass/style.scss */
+  .introContainer {
+    background-color: white;
+  }
 }
 @media screen and (min-width: 1000px) {
-  /* line 176, ../sass/style.scss */
+  /* line 222, ../sass/style.scss */
+  .introImageContainer {
+    display: block;
+  }
+
+  /* line 225, ../sass/style.scss */
   .hamburgerIcon {
     display: none;
   }
 
-  /* line 179, ../sass/style.scss */
+  /* line 228, ../sass/style.scss */
   .navLinks {
     display: block;
   }
 
-  /* line 182, ../sass/style.scss */
+  /* line 231, ../sass/style.scss */
   .socialTopNav {
     display: block;
   }

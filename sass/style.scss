@@ -73,8 +73,10 @@ body{
 }
 .hanoiIntro{
     float: left;
-    padding: 150px 40px 40px 80px;
+    padding: 150px 40px 40px 40px;
     font-size: 16px;
+    text-align: center;
+
 }
 .headerStyleSmall{
     font-size: 45px;
@@ -86,10 +88,9 @@ body{
     color: $primaryColour;
 }
 .hanoiIntroText{
-    font-size: 20px;
+    font-size: 30px;
     color: $primaryColour;
-    padding-top: 5%;
-    padding-right: 5%;
+    margin-top: 6%;
 }
 .button{
     background-color: $primaryColour;
@@ -101,14 +102,25 @@ body{
     border: none;
 }
 .aboutUsButton{
-    margin-top: 5%;
+    margin-top: 20%;
 }
 .menuButton{
     margin-top: 20px;
 }
+.introContainer{
+    background-color: black;
+}
 .introImageContainer{
-    float: right;
+    background-image: url('../img/apache-intro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    // float: right;
     display: none;
+    line-height: 0px;
+}
+.flexrow{
+    display: flex;
 }
 .menuContainer{
     background-color: $primaryColour;
@@ -137,7 +149,10 @@ body{
     padding: 0px 15px;
 }
 .menuItemContainer{
-    padding: 0px 70px 0px 70px;
+    padding: 0px 20px 0px 20px;
+}
+.menuItemText{
+    padding: 0px 0px 10px 0px;
 }
 .menuPrice{
     padding: 15px;
@@ -163,16 +178,50 @@ body{
     padding: 10px 20px;
     font-size: 25px;
 }
+.footerContainer{
+    background-color: #363535;
+    padding: 20px;
+}
+.footerLine{
+    color: grey;
+}
+.bottomNavlist{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bottomNavLinks{
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+.bottomNavLinksSmall{
+    color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.contactList{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: white;
+}
 @media screen and (min-width: 600px){
-    .introImageContainer{
-        display: block;
-    }
     .cardImage{
         padding: 0px 15px;
         display: block;
     }
+    .introContainer{
+        background-color: white;
+    }
 }
 @media screen and (min-width: 1000px){
+    .introImageContainer{
+        display: block;
+    }
     .hamburgerIcon{
         display: none;
     }
