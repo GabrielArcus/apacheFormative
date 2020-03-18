@@ -31,9 +31,9 @@ body{
 
 }
 .navItem{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 0px 25px;
+    padding: 3px 25px;
     float:left;
 }
 .navItem::after{
@@ -44,7 +44,7 @@ body{
 .logoTopNav{
     float: left;
     font-size: 30px;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 .logoTopNav a{
     text-decoration: none;
@@ -67,6 +67,7 @@ body{
 .hamburgerIcon{
     float: right;
     color: white;
+    padding: 3px 10px;
 }
 .introContainer{
 
@@ -121,6 +122,12 @@ body{
 }
 .flexrow{
     display: flex;
+}
+.flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
 }
 .menuContainer{
     background-color: $primaryColour;
@@ -180,34 +187,58 @@ body{
 }
 .footerContainer{
     background-color: #363535;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
 }
-.footerLine{
-    color: grey;
+.footerRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
-.bottomNavlist{
+.contactLink{
+    font-size: 16px;
+    color: darkgrey;
+}
+.footerNavLinks{
+    color: white;
     list-style: none;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+    ul{
+        list-style: none;
+        li{
+            padding-top: 10px;
+        }
+    }
 }
-.bottomNavLinks{
-    color: white;
-    padding: 10px 0px 0px 10px;
-}
-.bottomNavLinksSmall{
+.footerPolicy{
     color: grey;
-    display: flex;
+    list-style: none;
+    display: none;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
+    ul{
+        list-style: none;
+        text-align: center;
+        li{
+            padding-top: 20px;
+        }
+    }
 }
-.contactList{
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+.footerContact{
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-top: 10px;
+    ul{
+        list-style: none;
+        li{
+            padding-top: 10px;
+        }
+    }
 }
 @media screen and (min-width: 600px){
     .cardImage{
@@ -230,5 +261,8 @@ body{
     }
     .socialTopNav{
         display: block;
+    }
+    .hanoiIntro{
+        text-align: left;
     }
 }

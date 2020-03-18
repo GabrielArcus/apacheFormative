@@ -163,69 +163,64 @@ img {
   .colM12 {
     width: 100%;
   }
-
-  /* line 138, ../sass/_grid.scss */
-  .hamburgerIcon {
-    display: block;
-  }
 }
 @media screen and (min-width: 1000px) {
-  /* line 144, ../sass/_grid.scss */
+  /* line 142, ../sass/_grid.scss */
   .colL1 {
     width: 8.3333333333%;
   }
 
-  /* line 148, ../sass/_grid.scss */
+  /* line 146, ../sass/_grid.scss */
   .colL2 {
     width: 16.6666666667%;
   }
 
-  /* line 152, ../sass/_grid.scss */
+  /* line 150, ../sass/_grid.scss */
   .colL3 {
     width: 25%;
   }
 
-  /* line 156, ../sass/_grid.scss */
+  /* line 154, ../sass/_grid.scss */
   .colL4 {
     width: 33.3333333333%;
   }
 
-  /* line 160, ../sass/_grid.scss */
+  /* line 158, ../sass/_grid.scss */
   .colL5 {
     width: 41.6666666667%;
   }
 
-  /* line 164, ../sass/_grid.scss */
+  /* line 162, ../sass/_grid.scss */
   .colL6 {
     width: 50%;
   }
 
-  /* line 168, ../sass/_grid.scss */
+  /* line 166, ../sass/_grid.scss */
   .colL7 {
     width: 58.3333333333%;
   }
 
-  /* line 172, ../sass/_grid.scss */
+  /* line 170, ../sass/_grid.scss */
   .colL8 {
     width: 66.6666666667%;
   }
 
-  /* line 176, ../sass/_grid.scss */
+  /* line 174, ../sass/_grid.scss */
   .colL9 {
     width: 75%;
   }
 
-  /* line 180, ../sass/_grid.scss */
+  /* line 178, ../sass/_grid.scss */
   .colL10 {
     width: 83.3333333333%;
   }
 
-  /* line 184, ../sass/_grid.scss */
+  /* line 182, ../sass/_grid.scss */
   .colL11 {
     width: 91.6666666667%;
   }
 
-  /* line 188, ../sass/_grid.scss */
+  /* line 186, ../sass/_grid.scss */
   .colL12 {
     width: 100%;
   }
@@ -267,9 +262,9 @@ body {
 
 /* line 33, ../sass/style.scss */
 .navItem {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  padding: 0px 25px;
+  padding: 3px 25px;
   float: left;
 }
 
@@ -284,7 +279,7 @@ body {
 .logoTopNav {
   float: left;
   font-size: 30px;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 
 /* line 49, ../sass/style.scss */
@@ -317,9 +312,10 @@ body {
 .hamburgerIcon {
   float: right;
   color: white;
+  padding: 3px 10px;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .hanoiIntro {
   float: left;
   padding: 150px 40px 40px 40px;
@@ -327,26 +323,26 @@ body {
   text-align: center;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .headerStyleSmall {
   font-size: 45px;
   color: grey;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .headerStyleLarge {
   font-size: 50px;
   color: #ba5252;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .hanoiIntroText {
   font-size: 30px;
   color: #ba5252;
   margin-top: 6%;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .button {
   background-color: #ba5252;
   color: white;
@@ -357,22 +353,22 @@ body {
   border: none;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .aboutUsButton {
   margin-top: 20%;
 }
 
-/* line 107, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .menuButton {
   margin-top: 20px;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .introContainer {
   background-color: black;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .introImageContainer {
   background-image: url("../img/apache-intro.jpg");
   background-size: cover;
@@ -382,26 +378,38 @@ body {
   line-height: 0px;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .flexrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 129, ../sass/style.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 132, ../sass/style.scss */
 .menuContainer {
   background-color: #ba5252;
 }
 
-/* line 128, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .menuHeader {
   text-align: center;
   padding-top: 100px;
   color: white;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .menuButton {
   background-color: white;
   color: #ba5252;
@@ -409,7 +417,7 @@ body {
   margin-left: 10px;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .menuButtonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -419,51 +427,51 @@ body {
           justify-content: center;
 }
 
-/* line 143, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .card {
   margin-top: 100px;
   background-color: white;
   border-radius: 10px;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .cardColoumn {
   padding: 0px 15px;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .menuItemContainer {
   padding: 0px 20px 0px 20px;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .menuItemText {
   padding: 0px 0px 10px 0px;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .menuPrice {
   padding: 15px;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .menuItemHeader {
   padding-bottom: 10px;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .cardText {
   padding: 10px 15px;
   text-align: center;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .cardImage {
   padding: 0px 15px;
   display: none;
 }
 
-/* line 171, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .viewMenuButtonContainer {
   padding: 60px 0px 80px 0px;
   display: -webkit-box;
@@ -474,109 +482,137 @@ body {
           justify-content: center;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .mobileMenuHeader {
   color: white;
   padding: 10px 20px;
   font-size: 25px;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .footerContainer {
   background-color: #363535;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
 }
 
-/* line 185, ../sass/style.scss */
-.footerLine {
-  color: grey;
+/* line 192, ../sass/style.scss */
+.footerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-/* line 188, ../sass/style.scss */
-.bottomNavlist {
+/* line 197, ../sass/style.scss */
+.contactLink {
+  font-size: 16px;
+  color: darkgrey;
+}
+
+/* line 201, ../sass/style.scss */
+.footerNavLinks {
+  color: white;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0px 20px 0px;
 }
-
-/* line 194, ../sass/style.scss */
-.bottomNavLinks {
-  color: white;
-  padding: 10px 0px 0px 10px;
+/* line 209, ../sass/style.scss */
+.footerNavLinks ul {
+  list-style: none;
 }
-
-/* line 198, ../sass/style.scss */
-.bottomNavLinksSmall {
-  color: grey;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+/* line 211, ../sass/style.scss */
+.footerNavLinks ul li {
   padding-top: 10px;
 }
 
-/* line 205, ../sass/style.scss */
-.contactList {
+/* line 216, ../sass/style.scss */
+.footerPolicy {
+  color: grey;
   list-style: none;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 222, ../sass/style.scss */
+.footerPolicy ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 225, ../sass/style.scss */
+.footerPolicy ul li {
+  padding-top: 20px;
+}
+
+/* line 230, ../sass/style.scss */
+.footerContact {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: white;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 20px;
+  padding-top: 10px;
+}
+/* line 236, ../sass/style.scss */
+.footerContact ul {
+  list-style: none;
+}
+/* line 238, ../sass/style.scss */
+.footerContact ul li {
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 213, ../sass/style.scss */
+  /* line 244, ../sass/style.scss */
   .cardImage {
     padding: 0px 15px;
     display: block;
   }
 
-  /* line 217, ../sass/style.scss */
+  /* line 248, ../sass/style.scss */
   .introContainer {
     background-color: white;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 222, ../sass/style.scss */
+  /* line 253, ../sass/style.scss */
   .introImageContainer {
     display: block;
   }
 
-  /* line 225, ../sass/style.scss */
+  /* line 256, ../sass/style.scss */
   .hamburgerIcon {
     display: none;
   }
 
-  /* line 228, ../sass/style.scss */
+  /* line 259, ../sass/style.scss */
   .navLinks {
     display: block;
   }
 
-  /* line 231, ../sass/style.scss */
+  /* line 262, ../sass/style.scss */
   .socialTopNav {
     display: block;
   }
-}
 
-/*# sourceMappingURL=style.css.map */
+  /* line 265, ../sass/style.scss */
+  .hanoiIntro {
+    text-align: left;
+  }
+}
